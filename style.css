@@ -8,16 +8,19 @@
     box-sizing: border-box;
 }
 body{
+   height: 100%;
+   width: 100%;
+   background:url(/Images/ChatGPT\ Image\ Dec\ 12\,\ 2025\,\ 02_21_32\ PM.png)
    
 }
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10em;
-    margin-left: 30em;
+    margin-top: 19em;
+    margin-left: 50em;
     flex-direction: column;
-    background-color: white;
+    background-color:white;
     padding: 2em;
     width: 350px;
     border-radius: 15px;
@@ -33,3 +36,7 @@ input{
     text-align: center;
 
 }
+@media body{
+    
+}
+    

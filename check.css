@@ -1,0 +1,49 @@
+
+
+body {
+    background: url(/Images/ChatGPT\ Image\ Dec\ 12\,\ 2025\,\ 02_21_32\ PM.png);
+    background-size: cover;
+    font-family: Arial;
+}
+
+.bmi-card {
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.20);
+    text-align: center;
+}
+
+.bmi-card h2 {
+    margin-bottom: 20px;
+}
+
+.bmi-card input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.6);
+    font-size: 16px;
+}
+
+.bmi-card button {
+    width: 95%;
+    padding: 13px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    background: #4bb8ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bmi-card button:hover {
+    background: #0099ff;
+}
